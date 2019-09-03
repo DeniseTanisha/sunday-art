@@ -1,0 +1,64 @@
+.toppage {
+  background-color: #fdb408;
+  font-family: "Shadows Into Light", cursive;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: flex-end;
+  z-index: 2;
+  height: 200px;
+  box-shadow: 0px 0 10px 0px #ffb811;
+
+  .title {
+    color: #f6d078;
+    font-weight: 800;
+    font-size: 7rem;
+  }
+}
+.book {
+  align-content: centre;
+  height: 250px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  padding-bottom: 40px;
+}
+
+.blurtwo {
+  background-color: #fdb408;
+  height: 20px;
+  box-shadow: 0px 0 90px 0px #ffb404;
+}
+.blurthree {
+  background-color: #fdb408;
+  height: 20px;
+  box-shadow: 20px 0 0px 20px #fab71b;
+}
+.blurfour {
+  background-color: #fdc408;
+  height: 20px;
+  box-shadow: 20px 0 200px 20px #fbc341;
+}
+.Hand {
+  height: 5rem;
+}
+
+.shadow {
+  display: flex;
+  justify-content: center;
+  background-color: #fbc952;
+  box-shadow: 0px 0 0px 0px #fbd148;
+}
+
+.circle {
+  background-image: radial-gradient(#454347a9, #6360683f, #7f7b8300);
+  width: 450px;
+  height: 10px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.bottompage {
+  height: 300px;
+  background-image: linear-gradient(to right, #f8cd58, #ffea8d);
+  box-shadow: 100px 0 90px 20px #f8de4a;
+}
